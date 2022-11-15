@@ -134,6 +134,7 @@ header {
     justify-content: flex-end;
     align-items: center;
     margin-bottom: 20px;
+    cursor: text;
 }
 
 .tab {
@@ -141,6 +142,7 @@ header {
     letter-spacing: 2px;
     overflow: auto;
     color: var(--tabtext);
+    outline: none;
 }
 
 .content {
