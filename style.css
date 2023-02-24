@@ -212,7 +212,7 @@ header {
     }
     25% {
         opacity: 1;
-        transform: translateX(20%);
+        transform: translateX(10%);
     }
     50% {
         opacity: 1;

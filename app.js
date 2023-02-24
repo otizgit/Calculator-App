@@ -9,7 +9,7 @@ const root = document.querySelector(":root");
 const keys = Array.from(document.getElementsByClassName("key"));
 const tab = document.querySelector(".tab");
 
-keys.map((key) => {
+keys.forEach(function (key) {
   key.addEventListener("click", (e) => {
     switch (e.target.innerText) {
       case "RESET":
@@ -31,6 +31,7 @@ keys.map((key) => {
         break;
       default:
         tab.innerText += e.target.innerText;
+        tab.classList.remove("animate");
     }
   });
 });
